@@ -1,0 +1,7 @@
+.shadow-mdd:hover .bg-change {
+  background-color: #ee626b;
+}
+.shadow-mdd .bg-change,
+.shadow-mdd:hover .bg-change {
+  transition: all ease-in-out 300ms;
+}

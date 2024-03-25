@@ -1,0 +1,77 @@
+{
+  "Trendings": [
+    {
+      "id": 1,
+      "image": "./Images/trending-01.jpg",
+      "genre": "Action",
+      "price": "$20",
+      "name": "Warframe"
+    },
+    {
+      "id": 2,
+      "image": "./Images/trending-02.jpg",
+      "genre": "Fantasy",
+      "price": "$44",
+      "name": "Tower Of Fantasy"
+    },
+    {
+      "id": 3,
+      "image": "./Images/trending-03.jpg",
+      "genre": "Co-op",
+      "price": "$44",
+      "name": "Super People"
+    },
+    {
+      "id": 4,
+      "image": "./Images/trending-04.jpg",
+      "genre": "Adventure",
+      "price": "$32",
+      "name": "Dragon"
+    }
+  ],
+  "MostPlayed": [
+    {
+      "id": 1,
+      "image": "./Images/top-game-01.jpg",
+      "genre": "Action",
+      "name": "Warframe"
+    },
+    {
+      "id": 2,
+      "image": "./Images/top-game-02.jpg",
+      "genre": "Shooter",
+      "name": "PUBG"
+    },
+    {
+      "id": 3,
+      "image": "./Images/top-game-03.jpg",
+      "genre": "Shooter",
+      "name": "APEX"
+    },
+    {
+      "id": 4,
+      "image": "./Images/top-game-04.jpg",
+      "genre": "Adventure",
+      "name": "SIMS4"
+    },
+    {
+      "id": 5,
+      "image": "./Images/top-game-05.jpg",
+      "genre": "Strategy",
+      "name": "LostArk"
+    },
+    {
+      "id": 6,
+      "image": "./Images/top-game-06.jpg",
+      "genre": "Shooter",
+      "name": "Destiny2"
+    }
+  ],
+  "Categories": [
+    { "id": 1, "image": "./Images/categories-01.jpg", "genre": "Party" },
+    { "id": 2, "image": "./Images/categories-02.jpg", "genre": "Strategy" },
+    { "id": 3, "image": "./Images/categories-03.jpg", "genre": "Fantasy" },
+    { "id": 4, "image": "./Images/categories-04.jpg", "genre": "Co-op" },
+    { "id": 5, "image": "./Images/categories-05.jpg", "genre": "Action" }
+  ]
+}

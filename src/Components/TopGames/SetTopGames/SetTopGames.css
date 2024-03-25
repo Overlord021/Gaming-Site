@@ -1,0 +1,11 @@
+.Trend:hover .clr-change h4 {
+    color: #0071F8;
+  }
+  
+  .Trend:hover .clr-change button {
+    background-color: #0071F8;
+  }
+  
+  .Trend:hover .clr-change h4, .Trend:hover .clr-change button{
+    transition: all ease-in-out 300ms;
+  }
