@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="w-full h-[180px] rounded-[100px] sm:rounded-full sm:rounded-b-none md:rounded-full md:rounded-b-none lg:rounded-full lg:rounded-b-none rounded-b-none flex items-center lg:text-[18px]"
+        className="w-full h-[180px] rounded-[100px] sm:rounded-full sm:rounded-b-none md:rounded-full md:rounded-b-none lg:rounded-full lg:rounded-b-none rounded-b-none flex items-center lg:text-[18px] mt-40"
         style={{
           backgroundImage: `url(./Images/footer-bg.jpg)`,
           backgroundSize: "cover",

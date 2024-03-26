@@ -2,8 +2,8 @@ const Preorder = () => {
   return (
     <>
       <div className="w-full flex justify-center">
-        <div className="w-[960px] h-[760px] flex flex-col items-center lg:flex-row lg:relative lg:h-[840px] xl:w-[1140px] 2xl:w-[1320px]">
-          <div className="w-[351px] bg-[#F7F7F7] rounded-3xl p-[12px] mb-[30px] flex flex-col items-center xxs:w-[426px] h-[464px] sm:w-[480px] sm:h-[360px] md:w-[480px] md:h-[360px] lg:w-[376px] lg:h-[724px] lg:flex lg:justify-center lg:items-center lg:absolute lg:top-0 left-6 lg:mt-[90px] lg:z-[1] xl:w-[451px] xl:h-[520px] 2xl:w-[526px] 2xl:h-[536]">
+        <div className="w-[960px] h-[760px] flex flex-col justify-evenly items-center lg:flex-row lg:relative lg:h-[840px] xl:w-[1140px] 2xl:w-[1320px]">
+          <div className="w-[351px] bg-[#F7F7F7] rounded-3xl p-[12px] mb-[30px] flex flex-col items-center xxs:w-[426px] h-[464px] sm:w-[480px] sm:h-[360px] md:w-[480px] md:h-[360px] lg:w-[376px] lg:h-[724px] lg:flex lg:justify-center lg:items-center lg:absolute lg:top-0 left-6 lg:mt-[90px] lg:z-[1] xl:w-[451px] xl:h-[520px] 2xl:w-[526px] 2xl:h-[536px]">
             <div className="w-[291px] xxs:w-[351px] sm:w-[456px] md:w-[456px] lg:w-[240px] lg:h-[524px] xl:w-[315px] mt-[24px] 2xl:mt-[40px] flex flex-col justify-center ">
               <h6 className="text-[#ee626b] text-[16px] uppercase font-bold mb-[16px]">
                 our shop
@@ -28,7 +28,7 @@ const Preorder = () => {
             <img className="rounded-3xl" src="./Images/cta-bg.jpg" alt="" />
           </div>
 
-          <div className="w-[351px] bg-[#F7F7F7] rounded-3xl p-[12px] mb-[30px] flex flex-col items-center xxs:w-[426px] h-[439px] sm:w-[480px] sm:h-[360px] md:w-[480px] md:h-[360px] lg:w-[376px] lg:h-[518px] lg:flex lg:justify-center lg:items-center lg:absolute lg:top-[50%] right-6 -translate-y-[75%] lg:mt-[160px] lg:z-[1] xl:w-[451px] xl:h-[474px] 2xl:w-[526px] 2xl:h-[430]">
+          <div className="w-[351px] bg-[#F7F7F7] rounded-3xl p-[12px] mt-72 mb-[30px] flex flex-col items-center xxs:w-[426px] h-[439px] sm:w-[480px] sm:h-[360px] md:w-[480px] md:h-[360px] lg:w-[376px] lg:h-[518px] lg:flex lg:justify-center lg:items-center lg:absolute lg:top-[50%] right-6 -translate-y-[75%] lg:mt-[160px] lg:z-[1] xl:w-[451px] xl:h-[474px] 2xl:w-[526px] 2xl:h-[430px]">
             <div className="w-[291px] xxs:w-[351px] sm:w-[456px] md:w-[456px] lg:w-[256px] xl:w-[331px] mt-[24px] flex flex-col justify-center">
               <h6 className="text-[#ee626b] text-[16px] uppercase font-bold mb-[16px]">
                 NEWSLETTER
