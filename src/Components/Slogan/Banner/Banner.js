@@ -22,18 +22,18 @@ const Banner = () => {
             <div className="w-full flex justify-center xl:justify-start">
               <div className="w-[410px] sm:w-[516px] md:min-w-[696px] lg:min-w-[456px] relative">
                 <input
-                  className="w-full rounded-full px-7 py-3"
+                  className="w-full rounded-full px-7 py-3 outline-0 text-black"
                   type="text"
                   placeholder="type something"
                 />
-                <button className="bg-[#EE626B] absolute rounded-full right-[3px] translate-x-1 px-7 py-3 uppercase font-semibold hover:bg-[#0071F8]">
+                <button className="bg-[#EE626B] absolute rounded-full right-[3px] translate-x-1 px-7 py-3 uppercase font-semibold hover:bg-[#0071F8] transition-all ease-in-out duration-300 hover:transition-all hover:ease-in-out hover:duration-300">
                   Search Now
                 </button>
               </div>
             </div>
           </div>
           <div className="w-full flex justify-center items-center  sm:w-[516px] md:min-w-[696px] lg:min-w-[296px] lg:justify-end xl:min-w-[570px] xl:justify-end xl:pr-[16px] 2xl:min-w-[660px] 2xl:h-full">
-            <div className="bg-green-500 mt-[50px] rounded-3xl relative  sm:w-[516px] md:min-w-[696px] lg:w-[296px] lg:min-w-[296px] lg:mt-[12px] xl:min-w-[356px] xl:min-h-[434px] 2xl:w-[416px] 2xl:min-w-[416px] 2xl:mt-0">
+            <div className="mt-[50px] rounded-3xl relative  sm:w-[516px] md:min-w-[696px] lg:w-[296px] lg:min-w-[296px] lg:mt-[12px] xl:min-w-[356px] xl:min-h-[434px] 2xl:w-[416px] 2xl:min-w-[416px] 2xl:mt-0">
               <span className="absolute top-4 right-4 bg-[#008AF8] font-bold text-[22px] text-white rounded-full py-[4px] px-[15px]">
                 $22
               </span>

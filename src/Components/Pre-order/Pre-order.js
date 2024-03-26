@@ -17,7 +17,7 @@ const Preorder = () => {
                 Veritatis, incidunt.
               </p>
               <div className="w-full h-[50px] rounded-full flex items-center">
-                <button className="w-[138px] h-[50px] flex justify-center items-center text-[14px] bg-[#EE626B] text-white rounded-full px-7 py-3 lg:px-2 lg:text-[14px] uppercase font-semibold hover:bg-[#0071F8]">
+                <button className="w-[138px] h-[50px] flex justify-center items-center text-[14px] bg-[#EE626B] text-white rounded-full px-7 py-3 lg:px-2 lg:text-[14px] uppercase font-semibold hover:bg-[#0071F8] transition-all ease-in-out duration-300 hover:transition-all hover:ease-in-out hover:duration-300">
                   Shop Now
                 </button>
               </div>
@@ -39,12 +39,12 @@ const Preorder = () => {
               </h2>
               <div className="mt-[90px] relative">
                 <input
-                  className="w-full rounded-full px-7 py-3"
+                  className="w-full rounded-full px-7 py-3 outline-0 text-black"
                   type="email"
                   placeholder="Your Email..."
                 />
-                <button className="bg-[#EE626B] text-white absolute rounded-full right-[3px] translate-x-1 px-7 py-3 lg:px-2 lg:text-[14px] uppercase font-semibold hover:bg-[#0071F8]">
-                  Search Now
+                <button className="bg-[#EE626B] text-white absolute rounded-full right-[3px] translate-x-1 px-3 py-3 xxs:px-4 sm:px-4 md:px-4 lg:px-2 lg:text-[14px] xl:px-4 uppercase font-semibold hover:bg-[#0071F8] transition-all ease-in-out duration-300 hover:transition-all hover:ease-in-out hover:duration-300">
+                  SUBSCRIBE NOW
                 </button>
               </div>
             </div>

@@ -29,7 +29,7 @@ function Menu() {
         <header className="w-full min-h-[100px] z-10">
           <div
             className={`w-full min-h-[100px] flex justify-center fixed ${
-              scroll <= 6 ? null : "rounded-3xl rounded-t-none bg-[#0071f8]"
+              scroll <= 60 ? null : "rounded-3xl rounded-t-none bg-[#0071f8]"
             }`}
           >
             {/* Conditionally render navigation based on window size */}
@@ -47,7 +47,7 @@ function Menu() {
                   <ul className="min-w-[586px] min-h-[50px] text-white flex justify-end items-end mb-[8px]">
                     <li className="py-[8px] mx-[8px] lg:px-[12px] lg:mx-[4px] rounded-full ">
                       <a
-                        className="px-[12px] py-[10px] hover:bg-[#1A89F9] transition-all ease-in-out duration-500 rounded-full"
+                        className="px-[12px] py-[10px] hover:bg-[#1A89F9] transition-all ease-in-out duration-500 hover:transition-all hover:ease-in-out hover:duration-500 rounded-full"
                         href="#"
                       >
                         home
@@ -55,7 +55,7 @@ function Menu() {
                     </li>
                     <li className="py-[8px] mx-[8px] lg:px-[12px] lg:mx-[4px] rounded-full ">
                       <a
-                        className="px-[10px] py-[10px] hover:bg-[#1A89F9] transition-all ease-in-out duration-500 rounded-full"
+                        className="px-[10px] py-[10px] hover:bg-[#1A89F9] transition-all ease-in-out duration-500 hover:transition-all hover:ease-in-out hover:duration-500 rounded-full"
                         href="#"
                       >
                         our shop
@@ -63,7 +63,7 @@ function Menu() {
                     </li>
                     <li className="py-[8px] mx-[8px] lg:px-[12px] lg:mx-[4px] rounded-full ">
                       <a
-                        className="px-[12px] py-[10px] hover:bg-[#1A89F9] transition-all ease-in-out duration-500 rounded-full"
+                        className="px-[12px] py-[10px] hover:bg-[#1A89F9] transition-all ease-in-out duration-500 hover:transition-all hover:ease-in-out hover:duration-500 rounded-full"
                         href="#"
                       >
                         product details
@@ -71,7 +71,7 @@ function Menu() {
                     </li>
                     <li className="py-[8px] mx-[8px] lg:px-[12px] lg:mx-[4px] rounded-full ">
                       <a
-                        className="px-[12px] py-[10px] hover:bg-[#1A89F9] transition-all ease-in-out duration-500 rounded-full"
+                        className="px-[12px] py-[10px] hover:bg-[#1A89F9] transition-all ease-in-out duration-500 hover:transition-all hover:ease-in-out hover:duration-500 rounded-full"
                         href="#"
                       >
                         contact us
