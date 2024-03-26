@@ -9,8 +9,7 @@ const App = () => {
   const fetchAppMain = async () => {
     try {
       const res = await axios(
-        // "https://overlord021.github.io/Gaming-Site-File/db.json"
-        "http://localhost:3001/"
+        "https://overlord021.github.io/Gaming-Site-File/db.json"
       );
       setProperty(res.data);
     } catch (error) {
